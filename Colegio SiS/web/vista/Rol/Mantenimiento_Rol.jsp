@@ -1,6 +1,6 @@
 <%-- 
-    Document   : index
-    Created on : 02-nov-2016, 19:18:40
+    Document   : Mantenimiento_Rol
+    Created on : 19-ene-2017, 13:42:10
     Author     : jrsz_
 --%>
 
@@ -11,12 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
-    
-    <form method="post" action="Logueo.jsp">
-        <body>
-        
+    <body>
         <h1>Hello World!</h1>
-        <input type="submit" value="loguearse">
     </body>
-    </form>
 </html>

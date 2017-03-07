@@ -24,12 +24,11 @@ public class FactoryConnectionDB {
 
     public static String[] configMYSQL = {"bd_almacen", "root", "root"};
 
-    public static String[] configORACLE = {"procesosrh", "rrhh", "192.168.21.12", "1521", "xe"};
-//
+    public static String[] configORACLE = {"admin_cole", "root", "localhost", "1521", "xe"};
+//C:\\Users\\jrsz_\\Documents\\NetBeansProjects\Colegio-SISc\Colegio SiS\web\Archivos
     public static final String url = "C:\\filesSystemTalentoHumano\\";
 //public static final String url = "E:\\Projects\\TH\\th 1\\TALENTO_HUMANO\\web\\Archivo";  ESTE URL CAMBIA DE ACUERDO A LA MAQUINA
     public static final String url_archivos = "C:\\filesSystemTalentoHumano\\";
-
     //  public static String[] configORACLE = {"procesosrh", "rrhh", "procesrh-db.upeu", "1521", "upeu"};
 //    public static final String url = "/usr/share/tomcat7/webapps/TALENTO_HUMANO/Archivo/";
 //    public static final String url_archivos = "http://procesosrh-app.upeu/TALENTO_HUMANO/Archivo/";
