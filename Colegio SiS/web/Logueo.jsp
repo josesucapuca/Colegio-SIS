@@ -44,7 +44,7 @@
                                     <input type="text" class="form-control" id="username" name="username" autocomplete="off" autofocus="" required="" >
                                     <label for="username">Username</label>
                                 </div>
-                                <div class="form-grclaveoup">
+                                <div class="form-group">
                                     <input type="password" class="form-control" id="password" name="clave" required="">
                                     <label for="password">Password</label>
                                     <p class="help-block"><a href="#">Forgotten?</a></p>

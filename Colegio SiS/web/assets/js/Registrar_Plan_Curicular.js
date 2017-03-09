@@ -21,10 +21,12 @@ $(document).ready(function() {
     t.change(function() {
         if (t.val() === '2' || t.val() === '3') {
             document.getElementById('condicion2').style.display = 'none';
-
+            pa.val("");
+            pu.val("");
             if (t.val() === '2') {
                 document.getElementById('condicion').style.display = 'block';
                 document.getElementById('div_prog_anu').style.display = 'block';
+                document.getElementById('div_uni_clase').style.display = 'none';
             } else if (t.val() === '3') {
                 document.getElementById('condicion').style.display = 'block';
                 document.getElementById('div_prog_anu').style.display = 'block';
@@ -42,10 +44,13 @@ $(document).ready(function() {
                 }
             });
 
-        } else if (b.val() === '1') {
+        } else if (t.val() === '1') {
             document.getElementById('condicion').style.display = 'none';
             document.getElementById('div_prog_anu').style.display = 'none';
             document.getElementById('div_uni_clase').style.display = 'none';
+            document.getElementById('condicion2').style.display = 'block';
+
+
         }
     });
     g.change(function() {

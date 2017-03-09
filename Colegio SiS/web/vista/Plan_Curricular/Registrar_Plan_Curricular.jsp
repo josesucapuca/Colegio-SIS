@@ -4,7 +4,7 @@
 %>
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
         <title>Material Admin - Form advanced</title>
 
         <!-- BEGIN META -->
@@ -75,10 +75,10 @@
                                                 <div class="col-sm-12">
                                                     <div class="form-group">
                                                         <input type="hidden" value="<%=id_persona%>" id="id_persona">
-                                                        <label for="Lastname5" class="col-sm-2 control-label">Tipo Plan</label>
+                                                        <label for="sel_li_ti_plan" class="col-sm-2 control-label">Tipo Plan</label>
                                                         <div class="col-sm-12">
-                                                            <select class="form-control dirty" id="sel_li_ti_plan" required>
-                                                                <option value="0">[SELECCIONE]</option>
+                                                            <select class="form-control" id="sel_li_ti_plan" name="sel_li_ti_plan" required>
+                                                                <option value="">[SELECCIONE]</option>
                                                                 <option value="1">Programacion Anual</option>
                                                                 <option value="2">Unidad de Clase</option>
                                                                 <option value="3">Sesion de Clase</option>
